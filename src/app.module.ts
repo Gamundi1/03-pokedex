@@ -4,6 +4,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { PokemonModule } from './pokemon/pokemon.module';
 import { SharedModule } from './shared/shared.module';
+import { SeedModule } from './seed/seed.module';
 
 @Module({
   imports: [
@@ -16,6 +17,8 @@ import { SharedModule } from './shared/shared.module';
     PokemonModule,
 
     SharedModule,
+
+    SeedModule,
   ],
 })
 export class AppModule {}

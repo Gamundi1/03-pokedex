@@ -2,7 +2,6 @@
 /dist
 /node_modules
 /build
-/mongo
 
 # Logs
 logs
@@ -17,6 +16,7 @@ lerna-debug.log*
 .DS_Store
 
 package-lock.json
+/mongo
 
 # Tests
 /coverage
