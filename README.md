@@ -17,6 +17,10 @@
 2. npm install
 3. Nest CLI needed to continue. Install by executing `npm i -g @nestjs/cli`
 4. Build up database image `docker-compose up -d`
+5. Clonar el archivo __.env.template__ y renombrar a __.env__
+6. Llenar las variables de entorno definidas en el ```.env```
+7. Rebuild database with seed ( only on development ). Path -> http://localhost:3000/api/v1/seed
+8. Levantar la aplicación mediante ```npm run start:dev```
 
 ## Compile and run the project
 
